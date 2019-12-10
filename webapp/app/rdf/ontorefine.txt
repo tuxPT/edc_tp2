@@ -1,0 +1,60 @@
+PREFIX anpc: <http://centraldedados.pt/anpc-2018.csv>
+PREFIX spif: <http://spinrdf.org/spif#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Example RDF transformation using the custom IRIs and type
+CONSTRUCT {
+	?NumeroParsed a xsd:anyURI;
+    	anpc:DataOcorrencia ?DataOcorrenciaParsed ;
+        anpc:DataFechoOperacional ?DataFechoOperacionalParsed;
+		anpc:Natureza ?Natureza ;
+		anpc:EstadoOcorrencia ?EstadoOcorrencia ;
+		anpc:Distrito ?Distrito ;
+		anpc:Concelho ?Concelho ;
+		anpc:Freguesia ?Freguesia ;
+		anpc:Latitude ?Latitude ;
+		anpc:Longitude ?Longitude ;
+		anpc:NumeroMeiosTerrestresEnvolvidos ?NumeroMeiosTerrestresEnvolvidos ;
+		anpc:NumeroOperacionaisTerrestresEnvolvidos ?NumeroOperacionaisTerrestresEnvolvidos ;
+		anpc:NumeroMeiosAereosEnvolvidos ?NumeroMeiosAereosEnvolvidos ;
+		anpc:NumeroOperacionaisAereosEnvolvidos ?NumeroOperacionaisAereosEnvolvidos .
+} WHERE {
+	?row a anpc:Row;
+      	anpc:Numero ?Numero;
+    	anpc:DataOcorrencia ?DataOcorrencia ;
+    	anpc:DataFechoOperacional ?DataFechoOperacional;
+		anpc:Natureza ?Natureza ;
+		anpc:EstadoOcorrencia ?EstadoOcorrencia ;
+		anpc:Distrito ?Distrito ;
+		anpc:Concelho ?Concelho ;
+		anpc:Freguesia ?Freguesia ;
+		anpc:Latitude ?Latitude ;
+		anpc:Longitude ?Longitude ;
+		anpc:NumeroMeiosTerrestresEnvolvidos ?NumeroMeiosTerrestresEnvolvidos ;
+		anpc:NumeroOperacionaisTerrestresEnvolvidos ?NumeroOperacionaisTerrestresEnvolvidos ;
+		anpc:NumeroMeiosAereosEnvolvidos ?NumeroMeiosAereosEnvolvidos ;
+		anpc:NumeroOperacionaisAereosEnvolvidos ?NumeroOperacionaisAereosEnvolvidos .
+
+  		# DateTime Regex
+  		bind("([0-9]{2})/([0-9]{2})/([0-9]{4})\\s([0-9][0-9]):([0-9]{2}):([0-9]{2})" AS ?DateRegex)
+  		# Convert String to DateTime
+  		bind (replace(?DataOcorrencia, ?DateRegex, "$1") AS ?dayS)
+    	bind (replace(?DataOcorrencia, ?DateRegex, "$2") AS ?monthS)
+        bind (replace(?DataOcorrencia, ?DateRegex, "$3") AS ?yearS)
+        bind (replace(?DataOcorrencia, ?DateRegex, "$4") AS ?hoursS)
+        bind (replace(?DataOcorrencia, ?DateRegex, "$5") AS ?minsS)
+        bind (replace(?DataOcorrencia, ?DateRegex, "$6") AS ?secS)
+  		bind(strdt(concat(?yearS, "-", ?monthS, "-", ?dayS, "T", ?hoursS, ":", ?minsS, ":", ?secS), xsd:dateTime) as ?DataOcorrenciaParsed)
+  		# Convert String to DateTime
+  		bind (replace(?DataFechoOperacional, ?DateRegex, "$1") AS ?dayE)
+    	bind (replace(?DataFechoOperacional, ?DateRegex, "$2") AS ?monthE)
+        bind (replace(?DataFechoOperacional, ?DateRegex, "$3") AS ?yearE)
+        bind (replace(?DataFechoOperacional, ?DateRegex, "$4") AS ?hoursE)
+        bind (replace(?DataFechoOperacional, ?DateRegex, "$5") AS ?minsE)
+        bind (replace(?DataFechoOperacional, ?DateRegex, "$6") AS ?secE)
+  		bind(strdt(concat(?yearE, "-", ?monthE, "-", ?dayE, "T", ?hoursE, ":", ?minsE, ":", ?secE), xsd:dateTime) as ?DataFechoOperacionalParsed)
+  		# Generate Id
+  		bind(IRI(concat(str("http://centraldedados.pt/anpc-2018.csv/"), str(?Numero))) as ?NumeroParsed)
+}
+
+
