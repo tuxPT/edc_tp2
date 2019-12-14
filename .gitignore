@@ -1,7 +1,6 @@
 .venv
 .idea
-__pycache__/
-xml/
-.idea/
+__pycache__
+.idea
 *.jar
 *.sqlite3
