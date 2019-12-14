@@ -9,6 +9,7 @@ from s4api.swagger import ApiClient
 from .forms import RelatarForm
 from lxml import etree
 from datetime import datetime
+import json
 
 
 def index(request):
@@ -59,32 +60,25 @@ def get_occmonth():
         group by ?month
     """
     res = queryDB(query)
-    print(res)
-    return list()
-
-    '''
-    tree = ET.parse('app/xml/db.xml')
-    root = tree.getroot()
-    months = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    for c in root.findall('incidente'):
-        months[int(c.find('DataOcorrencia').text[5:7])-1] += 1
-    return months
-    '''
-
+    r = []
+    for month in res['results']['bindings']:
+        r.append(int(month['months']['value']))
+    print(r)
+    return r
 
 def get_occcategory():
-    session = BaseXClient.Session('localhost', 1984, 'admin', 'admin')
-    file = open('app/xml/occu_p_category.xqm', 'r')
-    try:
-        query = session.query(file.read())
-        occuCategory = json.loads(query.execute())
-        query.close()
-    finally:
-        # close session
-        if session:
-            session.close()
-    return occuCategory
-
+    query="""
+        select ?natureza (COUNT(?natureza) as ?numero) where { 
+	        ?s anpc:Natureza ?natureza .
+        }
+        group by ?natureza
+    """
+    res = queryDB(query)
+    r = dict()
+    for natureza in res['results']['bindings']:
+        r[natureza['natureza']['value']] = natureza['numero']['value']
+    print(r)
+    return r
 
 #lista de fogos que estao a ocorrer --> usar xpath (so para usar sem ser com a bd) e assim mostra uma lista de fogos sem ser no mapa
 def incidentes_recentes_lista():
@@ -256,7 +250,7 @@ def queryDB(query):
         PREFIX anpc: <http://centraldedados.pt/anpc-2018.csv#>
         PREFIX spif: <http://spinrdf.org/spif#>
         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-    """
+    """ + query
     endpoint = "http://localhost:7200"
     repo = "anpc"
     client = ApiClient(endpoint=endpoint)
@@ -267,4 +261,4 @@ def queryDB(query):
     else:
         payload = {"query": query}
         result = accessor.sparql_select(body=payload, repo_name=repo)
-    return result
+    return json.loads(result)
