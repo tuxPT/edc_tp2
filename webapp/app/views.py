@@ -3,6 +3,9 @@ import xml.etree.ElementTree as ET
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.template import loader
+from s4api.graphdb_api import GraphDBApi
+from s4api.swagger import ApiClient
+
 from .forms import RelatarForm
 from lxml import etree
 from datetime import datetime
@@ -48,10 +51,10 @@ def listar(request):
 
 
 def get_occmonth():
-    session = BaseXClient.Session('localhost', 1984, 'admin', 'admin')
-    file = open('app/xml/occu_p_month.xqm', 'r')
     try:
-        query = session.query(file.read())
+        query = """
+            
+        """
         occuMonth = json.loads(query.execute())
         query.close()
     finally:
@@ -248,3 +251,16 @@ def list_recent_distance(request):
             session.close()
     print(json.dumps(rv))
     return HttpResponse(json.dumps(rv), content_type="application/json")
+
+def queryDB(query):
+    endpoint = "http://localhost:7200"
+    repo = "anpc"
+    client = ApiClient(endpoint=endpoint)
+    accessor = GraphDBApi(client)
+    if ("INSERT" or "UPDATE") in query:
+        payload = {"update": query}
+        result = accessor.sparql_update(body=payload, repo_name=repo)
+    else:
+        payload = {"query": query}
+        result = accessor.sparql_select(body=payload, repo_name=repo)
+    return result
