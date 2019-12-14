@@ -51,17 +51,16 @@ def listar(request):
 
 
 def get_occmonth():
-    try:
-        query = """
-            
-        """
-        occuMonth = json.loads(query.execute())
-        query.close()
-    finally:
-        # close session
-        if session:
-            session.close()
-    return list(occuMonth.values())
+    query = """
+        select (COUNT(?month) as ?months) where { 
+            ?s anpc:DataOcorrencia ?o .
+            bind(month(?o) as ?month)
+        }
+        group by ?month
+    """
+    res = queryDB(query)
+    print(res)
+    return list()
 
     '''
     tree = ET.parse('app/xml/db.xml')
@@ -253,6 +252,11 @@ def list_recent_distance(request):
     return HttpResponse(json.dumps(rv), content_type="application/json")
 
 def queryDB(query):
+    query = """
+        PREFIX anpc: <http://centraldedados.pt/anpc-2018.csv#>
+        PREFIX spif: <http://spinrdf.org/spif#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    """
     endpoint = "http://localhost:7200"
     repo = "anpc"
     client = ApiClient(endpoint=endpoint)
