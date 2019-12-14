@@ -11,7 +11,7 @@ rdflib = "*"
 lxml = "*"
 django-bootstrap4 = "*"
 django-bootstrap-datepicker-plus = "*"
-django = "*"
+django = "==2.2.5"
 
 [requires]
 python_version = "3.7"
