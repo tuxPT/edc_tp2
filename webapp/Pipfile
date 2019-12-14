@@ -6,8 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-s4api = "*"
-rdflib = "*"
+s4api = "==1.1.0"
+rdflib = "==4.2.2"
 lxml = "==4.4.1"
 django-bootstrap4 = "*"
 django-bootstrap-datepicker-plus = "*"
