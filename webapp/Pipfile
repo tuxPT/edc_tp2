@@ -7,9 +7,11 @@ verify_ssl = true
 
 [packages]
 s4api = "*"
-django = "*"
 rdflib = "*"
 lxml = "*"
+django-bootstrap4 = "*"
+django-bootstrap-datepicker-plus = "*"
+django = "*"
 
 [requires]
-python_version = "3.7.4"
+python_version = "3.7"
