@@ -82,15 +82,34 @@ def get_occcategory():
 
 #lista de fogos que estao a ocorrer --> usar xpath (so para usar sem ser com a bd) e assim mostra uma lista de fogos sem ser no mapa
 def incidentes_recentes_lista():
-    dic = {}
-    tree = ET.parse('db.xml')
-    root = tree.getroot()
-    for c in root.findall('incidente'):
-        if c.find('Estado').text == 'Em Curso' and c.find('DataOcorrencia').text[5:7] == '12':
-            dic.update({c.attrib['Numero']: [c.find('DataOcorrencia').text[0:10], c.find('Natureza').text, c.find('Estado').text, c.find('Distrito').text, c.find('Concelho').text, c.find('Freguesia').text, c.find('OperacionaisTerrestres').text]})
-    return dic
+    query = """
+    select ?numero ?data ?natureza ?estado ?distrito ?concelho ?freguesia ?operacionais
+    where {
+        ?numero a xsd:anyURI;
+            anpc:EstadoOcorrencia ?estado;
+            anpc:DataOcorrencia ?data;
+            anpc:Natureza ?natureza;
+            anpc:Distrito ?distrito;
+            anpc:Concelho ?concelho;
+            anpc:Freguesia ?freguesia;
+            anpc:NumeroOperacionaisTerrestresEnvolvidos ?operacionais .
+        filter(?estado = 'Em Curso' && month(?data) >= 12) 
+    }
+    """
+    res = queryDB(query)
+    r = dict()
+    for row in res['results']['bindings']:
+        r[row['numero']['value']] = [row['data']['value'],
+                                     row['natureza']['value'],
+                                     row['estado']['value'],
+                                     row['distrito']['value'],
+                                     row['concelho']['value'],
+                                     row['freguesia']['value'],
+                                     row['operacionais']['value']
+                                     ]
+    return r
 
-
+"""
 #mostrar detalhes dos incendios descritos na função incidentes_recentes_lista (para um especifico selecionado)
 #ToDo...
 def get_fogo(xml_file: str, value: str):
@@ -115,8 +134,9 @@ def get_fogo(xml_file: str, value: str):
             }
             break
     return dic
+"""
 
-
+"""
 #mostrar detalhes dos incendios descritos na função incidentes_recentes_lista (para um especifico selecionado)
 def mostrar_detalhes(request):
 
@@ -124,9 +144,10 @@ def mostrar_detalhes(request):
     value = request.GET.get('Freguesia')
     context = get_fogo("db.xml", value)
     return HttpResponse(template.render(context, request))
-
+"""
 
 def create_incident(data):
+    """
     incidentes = etree.Element('incidentes')
 
     num = datetime.now().strftime('%Y%m%d%H%M%S')
@@ -168,17 +189,49 @@ def create_incident(data):
 
     operacionais_aereos = etree.SubElement(incidente, 'OperacionaisAereos')
     operacionais_aereos.text = str(data['opAereos'])
-
+    """
+    num = datetime.now().strftime('%Y%m%d%H%M%S')
+    data_ocorrencia = data['data_ocorrencia'].strftime('%Y-%m-%dT%H:%M:%S')
+    natureza = data['natureza']
+    estado = data['estado']
+    distrito = data['distrito']
+    concelho = data['concelho']
+    freguesia = data['freguesia']
+    latitude = str(data['latitude'])
+    longitude = str(data['longitude'])
+    meios_terrestres = str(data['meiosTerrestres'])
+    operacionais_terrestres = str(data['opTerrestres'])
+    meios_aereos = str(data['meiosAereos'])
+    operacionais_aereos = str(data['opAereos'])
+    incidentes = """
+        insert data {
+            ?NumeroParsed a xsd:anyURI;
+                anpc:Numero {}
+                anpc:DataOcorrencia {} ;
+                anpc:Natureza {} ;
+                anpc:EstadoOcorrencia {} ;
+                anpc:Distrito {} ;
+                anpc:Concelho {} ;
+                anpc:Freguesia {} ;
+                anpc:Latitude {} ;
+                anpc:Longitude {} ;
+                anpc:NumeroMeiosTerrestresEnvolvidos {} ;
+                anpc:NumeroOperacionaisTerrestresEnvolvidos {} ;
+                anpc:NumeroMeiosAereosEnvolvidos {} ;
+                anpc:NumeroOperacionaisAereosEnvolvidos {} .
+            bind(IRI(concat(str("http://centraldedados.pt/anpc-2018.csv#"), str({}))) as ?NumeroParsed)
+        }
+    """.format(num, data_ocorrencia, natureza, estado, distrito, concelho, freguesia, latitude, longitude, meios_terrestres, operacionais_terrestres, meios_aereos, operacionais_aereos)
     return incidentes
 
-
+"""
 # abre o ficheiro XML e adiciona o incidente no final
 def store_incident(doc, file_xml):
     tree = etree.parse(file_xml)
     root = tree.getroot()
     root.append(doc)
     tree.write(file_xml, xml_declaration=True, encoding='UTF-8')
-
+"""
 
 # recebe dados do formulário e coloca no ficheiro xml se os dados forem válidos
 def store_data(request):
@@ -189,8 +242,9 @@ def store_data(request):
             data = form.cleaned_data
             for k in data:
                 print('{} : {}'.format(k, data[k]))
-            doc = create_incident(data)
-            print(etree.tostring(doc.find('incidente'), pretty_print=True))
+            query = create_incident(data)
+            queryDB(query)
+            """
             if validate(doc, 'app/xml/schema.xsd'):
                 print('ok')
                 store_incident(doc.find('incidente'), 'db.xml')
@@ -198,6 +252,8 @@ def store_data(request):
             else:
                 print('not ok')
                 return HttpResponseRedirect('notconfirm')
+                
+            """
         else:
             print('not valid')
             return HttpResponseRedirect('notconfirm')
@@ -229,21 +285,29 @@ def list_recent_distance(request):
     lat = request.GET.get('lat')
     long = request.GET.get('lng')
     radius = request.GET.get('radius')
-
-    session = BaseXClient.Session('localhost', 1984, 'admin', 'admin')
-    file = open('app/xml/recent_incident.xqm', 'r')
-    rv = None
-    try:
-        query = session.query(file.read() + 'return (local:list_in_range({}, {}, {}))'.format(lat, long, radius))
-        rv = json.loads(query.execute())
-        query.close()
-
-    finally:
-        # close session
-        if session:
-            session.close()
-    print(json.dumps(rv))
-    return HttpResponse(json.dumps(rv), content_type="application/json")
+    query = """
+        PREFIX ofn: <http://www.ontotext.com/sparql/functions/>
+        select *
+        where{
+            ?s  anpc:Latitude ?latitude;
+                anpc:Longitude ?longitude;
+                anpc:DataOcorrencia ?data.
+            filter(?distance <= {} && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))        
+            bind(
+                ofn:sqrt(
+                    ofn:pow(
+                        (?latitude-{})*111.03, 2
+                    )
+                    +
+                    ofn:pow(
+                        (?longitude-({}))*85.39, 2
+                    )
+                ) as ?distance
+            )
+        }
+    """.format(radius, lat, long)
+    res = queryDB(query)
+    return HttpResponse(json.dumps(res), content_type="application/json")
 
 def queryDB(query):
     query = """
