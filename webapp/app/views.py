@@ -68,15 +68,16 @@ def get_occmonth():
 
 def get_occcategory():
     query="""
-        select ?natureza (COUNT(?natureza) as ?numero) where { 
+        select ?natur (COUNT(?natur) as ?numero) where { 
 	        ?s anpc:Natureza ?natureza .
+	        bind(strbefore(?natureza,"/") as ?natur)
         }
-        group by ?natureza
+        group by ?natur
     """
     res = queryDB(query)
     r = dict()
     for natureza in res['results']['bindings']:
-        r[natureza['natureza']['value']] = natureza['numero']['value']
+        r[natureza['natur']['value']] = natureza['numero']['value']
     print(r)
     return r
 
@@ -93,7 +94,7 @@ def incidentes_recentes_lista():
             anpc:Concelho ?concelho;
             anpc:Freguesia ?freguesia;
             anpc:NumeroOperacionaisTerrestresEnvolvidos ?operacionais .
-        filter(?estado = 'Em Curso' && month(?data) >= 12) 
+        filter(month(?data) = 12) 
     }
     """
     res = queryDB(query)
