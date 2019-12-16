@@ -89,11 +89,12 @@ def incidentes_recentes_lista():
         ?numero a xsd:anyURI;
             anpc:EstadoOcorrencia ?estado;
             anpc:DataOcorrencia ?data;
-            anpc:Natureza ?natureza;
             anpc:Distrito ?distrito;
             anpc:Concelho ?concelho;
             anpc:Freguesia ?freguesia;
             anpc:NumeroOperacionaisTerrestresEnvolvidos ?operacionais .
+        ?s anpc:Natureza ?natur .
+       	bind(strbefore(?natur,"/") as ?natureza)
         filter(month(?data) = 12) 
     }
     """
