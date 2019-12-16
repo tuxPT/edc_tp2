@@ -290,23 +290,22 @@ def listar_incidentes_map(request):
     query = """
         PREFIX ofn: <http://www.ontotext.com/sparql/functions/>
         select *
-        where{
-            ?s  anpc:Latitude ?latitude;
+        where{{?s  anpc:Latitude ?latitude;
                 anpc:Longitude ?longitude;
                 anpc:DataOcorrencia ?data.
-            filter(?distance <= {} && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))        
+            filter(?distance <= {0} && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))        
             bind(
                 ofn:sqrt(
                     ofn:pow(
-                        (?latitude-{})*111.03, 2
+                        (?latitude-{1})*111.03, 2
                     )
                     +
                     ofn:pow(
-                        (?longitude-({}))*85.39, 2
+                        (?longitude-({2}))*85.39, 2
                     )
                 ) as ?distance
             )
-        }
+        }}
     """.format(radius, lat, long)
     res = queryDB(query)
     return HttpResponse(json.dumps(res), content_type="application/json")

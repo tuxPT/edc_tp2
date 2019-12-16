@@ -11,7 +11,7 @@ var layerGroup = L.layerGroup().addTo(map);
 
 map.on("moveend", function(){
 	var c = map.getCenter();
-	var url = 'listar_incidentes_map?lat=' + c.lat + '&lng=' + c.lng + '&radius=50';
+	var url = 'listar_incidentes_map?lat=' + c.lat + '&lng=' + c.lng + '&radius=5000';
 	fetch(url).then(res => res.json()).then((out) => {
 		layerGroup.clearLayers();
 		console.log(out.length);
