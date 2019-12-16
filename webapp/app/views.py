@@ -86,14 +86,14 @@ def incidentes_recentes_lista():
     query = """
     select ?numero ?data ?natureza ?estado ?distrito ?concelho ?freguesia ?operacionais
     where {
-        ?numero a xsd:anyURI;
+        ?s  anpc:Numero ?numero;
             anpc:EstadoOcorrencia ?estado;
             anpc:DataOcorrencia ?data;
             anpc:Distrito ?distrito;
             anpc:Concelho ?concelho;
             anpc:Freguesia ?freguesia;
-            anpc:NumeroOperacionaisTerrestresEnvolvidos ?operacionais .
-        ?s anpc:Natureza ?natur .
+            anpc:NumeroOperacionaisTerrestresEnvolvidos ?operacionais;
+            anpc:Natureza ?natur .
        	bind(strbefore(?natur,"/") as ?natureza)
         filter(month(?data) = 12) 
     }
@@ -285,30 +285,40 @@ def validate(doc: str, file_schema: str):
 
 def listar_incidentes_map(request):
     lat = request.GET.get('lat')
-    long = request.GET.get('lng')
+    lng = request.GET.get('lng')
     radius = request.GET.get('radius')
     query = """
         PREFIX ofn: <http://www.ontotext.com/sparql/functions/>
-        select *
-        where{{?s  anpc:Latitude ?latitude;
-                anpc:Longitude ?longitude;
+        select ?Latitude ?Longitude ?Natureza
+        where{{
+            ?s  anpc:Latitude ?Latitude;
+                anpc:Longitude ?Longitude;
+                anpc:Natureza ?Natureza;
                 anpc:DataOcorrencia ?data.
-            filter(?distance <= {0} && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))        
+            bind(strdt({0}, xsd:integer) as ?radiusParsed)
+            bind(strdt({1}, xsd:decimal) as ?latParsed)
+            bind(strdt({2}, xsd:decimal) as ?lngParsed)
+            filter(?distance <= ?radiusParsed && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))        
             bind(
                 ofn:sqrt(
                     ofn:pow(
-                        (?latitude-{1})*111.03, 2
-                    )
+                        (?Latitude-?latParsed)*111.03, 2)
                     +
                     ofn:pow(
-                        (?longitude-({2}))*85.39, 2
-                    )
+                        (?Longitude-?lngParsed)*85.39, 2)
                 ) as ?distance
             )
         }}
-    """.format(radius, lat, long)
+        """.format(radius, lat, lng)
+
     res = queryDB(query)
-    return HttpResponse(json.dumps(res), content_type="application/json")
+    r = []
+    for row in res['results']['bindings']:
+        r.append({'Natureza': row['Natureza']['value']},
+                 {'Latitude': row['Latitude']['value']},
+                 {'Longitude': row['Longitude']['value']})
+
+    return HttpResponse(json.dumps(r), content_type="application/json")
 
 def queryDB(query):
     query = """
