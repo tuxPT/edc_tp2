@@ -31,5 +31,5 @@ urlpatterns = [
     path('listar_url', views.listar),
     path('confirm', views.confirm),
     path('notconfirm', views.notconfirm),
-    path('listar_incidentes_map', views.list_recent_distance),
+    path('listar_incidentes_map', views.listar_incidentes_map),
 ]

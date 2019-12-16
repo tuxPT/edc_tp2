@@ -283,7 +283,7 @@ def validate(doc: str, file_schema: str):
             return False
 
 
-def list_recent_distance(request):
+def listar_incidentes_map(request):
     lat = request.GET.get('lat')
     long = request.GET.get('lng')
     radius = request.GET.get('radius')
