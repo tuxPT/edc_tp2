@@ -302,10 +302,10 @@ def listar_incidentes_map(request):
             bind(
                 ofn:sqrt(
                     ofn:pow(
-                        (?Latitude-?latParsed)/111.03, 2)
+                        (?Latitude*111.03-?latParsed*111.03), 2)
                     +
                     ofn:pow(
-                        (?Longitude-?lngParsed)/85.39, 2)
+                        (?Longitude*85.39-?lngParsed*85.39), 2)
                 ) as ?distance
             )
         }}
