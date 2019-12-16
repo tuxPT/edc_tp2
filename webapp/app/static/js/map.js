@@ -10,12 +10,14 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 var layerGroup = L.layerGroup().addTo(map);
 
 map.on("moveend", function(){
-	var c = map.getCenter();
-	var url = 'listar_incidentes_map?lat=' + c.lat + '&lng=' + c.lng + '&radius=5000';
+	let c = map.getCenter();
+	let url = 'listar_incidentes_map?lat=' + c.lat + '&lng=' + c.lng + '&radius=500';
 	fetch(url).then(res => res.json()).then((out) => {
 		layerGroup.clearLayers();
 		console.log(out.length);
-		for(var i=0; i<out.length; i++){
+		console.log(out);
+		for(let i=0; i < out.length; i++){
+			console.log(out[i]);
 			var lat = out[i]["Latitude"];
 			var lng = out[i]["Longitude"];
 			var marker = L.marker([lat, lng]);

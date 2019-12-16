@@ -295,9 +295,9 @@ def listar_incidentes_map(request):
                 anpc:Longitude ?Longitude;
                 anpc:Natureza ?Natureza;
                 anpc:DataOcorrencia ?data.
-            bind(strdt({0}, xsd:integer) as ?radiusParsed)
-            bind(strdt({1}, xsd:decimal) as ?latParsed)
-            bind(strdt({2}, xsd:decimal) as ?lngParsed)
+            bind(strdt("{0}", xsd:integer) as ?radiusParsed)
+            bind(strdt("{1}", xsd:decimal) as ?latParsed)
+            bind(strdt("{2}", xsd:decimal) as ?lngParsed)
             filter(?distance <= ?radiusParsed && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))        
             bind(
                 ofn:sqrt(
@@ -311,12 +311,14 @@ def listar_incidentes_map(request):
         }}
         """.format(radius, lat, lng)
 
+    print(query)
+
     res = queryDB(query)
     r = []
     for row in res['results']['bindings']:
-        r.append({'Natureza': row['Natureza']['value']},
-                 {'Latitude': row['Latitude']['value']},
-                 {'Longitude': row['Longitude']['value']})
+        r.append({'Natureza': row['Natureza']['value'],
+                  'Latitude': float(row['Latitude']['value']),
+                  'Longitude': float(row['Longitude']['value'])})
 
     return HttpResponse(json.dumps(r), content_type="application/json")
 
