@@ -29,6 +29,7 @@ urlpatterns = [
     path('avisos_url', views.avisos),
     path('store_url', views.store_data),
     path('listar_url', views.listar),
+    path('listar_distrito_url', views.listar_distrito),
     path('confirm', views.confirm),
     path('notconfirm', views.notconfirm),
     path('listar_incidentes_map', views.listar_incidentes_map),

@@ -1,19 +1,19 @@
 import json
-import xml.etree.ElementTree as ET
+from datetime import datetime
+
+from SPARQLWrapper import SPARQLWrapper, JSON
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from django.template import loader
+from lxml import etree
 from s4api.graphdb_api import GraphDBApi
 from s4api.swagger import ApiClient
 
 from .forms import RelatarForm
-from lxml import etree
-from datetime import datetime
-import json
 
 
 def index(request):
     return render(request, 'index.html')
+
 
 def sobre(request):
     return render(request, 'sobre.html')
@@ -22,7 +22,7 @@ def sobre(request):
 def relatar(request):
     form = RelatarForm()
     return render(request, 'relatar.html', {'form': form})
-    #return render(request, 'relatar.html')
+    # return render(request, 'relatar.html')
 
 
 def estatisticas(request):
@@ -40,8 +40,10 @@ def avisos(request):
 def confirm(request):
     return render(request, 'confirm.html')
 
+
 def notconfirm(request):
     return render(request, 'notconfirm.html')
+
 
 def listar(request):
     dic = incidentes_recentes_lista()
@@ -51,9 +53,98 @@ def listar(request):
     return render(request, 'incidentes_recentes.html', context)
 
 
+def listar_distrito(request):
+    district = request.GET.get('district')
+    context = {'district': district}
+    # get district code from wiki data:
+    query = """
+    SELECT DISTINCT ?item
+    where
+    {{
+    ?item wdt:P31 wd:Q41806065;
+    rdfs:label ?itemLabel.
+    FILTER NOT EXISTS {{?item p:P31 ?statement . ?statement pq:P582 ?endTime}}
+    FILTER(CONTAINS(LCASE(?itemLabel), "{0}"@pt)).
+    }} limit 1
+    """.format(district.lower())
+    results = query_WikiData(query)
+    district_code = results['results']['bindings'][0]['item']['value'].split('/')[-1]
+    print(district_code)
+
+    # get data from that district
+    query = """
+    SELECT DISTINCT ?timezoneLabel ?urlLabel ?imgurlLabel
+    where
+    {{
+    wd:{0} wdt:P31 wd:Q41806065;
+
+               wdt:P242 ?imgurl.
+
+    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en" .}}
+    }}
+    """.format(district_code)
+    #wdt:P421 ?timezone;
+    results = query_WikiData(query)
+    #context['timezone'] = results['results']['bindings'][0]['timezoneLabel']['value']
+    context['imgurl'] = results['results']['bindings'][0]['imgurlLabel']['value']
+
+    # shares border with
+    query = """
+    SELECT DISTINCT ?borderLabel
+    where
+    {{
+    wd:{0} wdt:P31 wd:Q41806065;
+               wdt:P47 ?border.
+    ?border wdt:P31 wd:Q41806065.
+    FILTER NOT EXISTS {{?border pq:P582 ?endTime}}
+    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en" .}}
+    }}
+    """.format(district_code)
+    results = query_WikiData(query)
+
+    borders = []
+    for row in results['results']['bindings']:
+        borders.append(row['borderLabel']['value'].split()[0])
+    context['borders'] = borders
+
+    # get latest events
+    query = """
+        select ?numero ?data ?natureza ?estado ?distrito ?concelho ?freguesia ?operacionais
+        where {{
+            ?s  anpc:Numero ?numero;
+                anpc:EstadoOcorrencia ?estado;
+                anpc:DataOcorrencia ?data;
+                anpc:Distrito ?distrito;
+                anpc:Concelho ?concelho;
+                anpc:Freguesia ?freguesia;
+                anpc:NumeroOperacionaisTerrestresEnvolvidos ?operacionais;
+                anpc:Natureza ?natur .
+           	bind(strbefore(?natur,"/") as ?natureza)
+           	FILTER(CONTAINS(LCASE(?distrito), "{0}"@pt)).
+        }}
+        ORDER BY DESC(?data)
+        limit 3
+        """.format(district.lower())
+    res = queryDB(query)
+    r = {}
+    for row in res['results']['bindings']:
+        r[row['numero']['value']] = [row['data']['value'],
+                                     row['natureza']['value'],
+                                     row['estado']['value'],
+                                     row['distrito']['value'],
+                                     row['concelho']['value'],
+                                     row['freguesia']['value'],
+                                     row['operacionais']['value']
+                                     ]
+    context['info'] = r
+    print(context)
+
+    return render(request, 'incidentes_distrito.html', context)
+
+
 def get_occmonth():
     query = """
-        select (COUNT(?month) as ?months) where { 
+        select (COUNT(?month) as ?months) where {
             ?s anpc:DataOcorrencia ?o .
             bind(month(?o) as ?month)
         }
@@ -66,9 +157,10 @@ def get_occmonth():
     print(r)
     return r
 
+
 def get_occcategory():
-    query="""
-        select ?natur (COUNT(?natur) as ?numero) where { 
+    query = """
+        select ?natur (COUNT(?natur) as ?numero) where {
 	        ?s anpc:Natureza ?natureza .
 	        bind(strbefore(?natureza,"/") as ?natur)
         }
@@ -81,7 +173,8 @@ def get_occcategory():
     print(r)
     return r
 
-#lista de fogos que estao a ocorrer --> usar xpath (so para usar sem ser com a bd) e assim mostra uma lista de fogos sem ser no mapa
+
+# lista de fogos que estao a ocorrer --> usar xpath (so para usar sem ser com a bd) e assim mostra uma lista de fogos sem ser no mapa
 def incidentes_recentes_lista():
     query = """
     select ?numero ?data ?natureza ?estado ?distrito ?concelho ?freguesia ?operacionais
@@ -95,7 +188,7 @@ def incidentes_recentes_lista():
             anpc:NumeroOperacionaisTerrestresEnvolvidos ?operacionais;
             anpc:Natureza ?natur .
        	bind(strbefore(?natur,"/") as ?natureza)
-        filter(month(?data) = 12) 
+        filter(month(?data) = 12)
     }
     """
     res = queryDB(query)
@@ -110,6 +203,7 @@ def incidentes_recentes_lista():
                                      row['operacionais']['value']
                                      ]
     return r
+
 
 """
 #mostrar detalhes dos incendios descritos na função incidentes_recentes_lista (para um especifico selecionado)
@@ -147,6 +241,7 @@ def mostrar_detalhes(request):
     context = get_fogo("db.xml", value)
     return HttpResponse(template.render(context, request))
 """
+
 
 def create_incident(data):
     """
@@ -220,7 +315,7 @@ def create_incident(data):
                             anpc:NumeroMeiosTerrestresEnvolvidos ?nmt ;
                             anpc:NumeroOperacionaisTerrestresEnvolvidos ?not ;
                             anpc:NumeroMeiosAereosEnvolvidos ?nma ;
-                            anpc:NumeroOperacionaisAereosEnvolvidos ?noa .       
+                            anpc:NumeroOperacionaisAereosEnvolvidos ?noa .
         }}
         where{{
             bind(strdt("{}", xsd:integer) as ?numero)
@@ -267,7 +362,7 @@ def listar_incidentes_map(request):
             bind(strdt("{0}", xsd:integer) as ?radiusParsed)
             bind(strdt("{1}", xsd:decimal) as ?latParsed)
             bind(strdt("{2}", xsd:decimal) as ?lngParsed)
-            filter(?distance <= ?radiusParsed && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))        
+            filter(?distance <= ?radiusParsed && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))
             bind(
                 ofn:sqrt(
                     ofn:pow(
@@ -280,8 +375,6 @@ def listar_incidentes_map(request):
         }}
         """.format(radius, lat, lng)
 
-    print(query)
-
     res = queryDB(query)
     r = []
     for row in res['results']['bindings']:
@@ -289,7 +382,10 @@ def listar_incidentes_map(request):
                   'Latitude': float(row['Latitude']['value']),
                   'Longitude': float(row['Longitude']['value'])})
 
+    #query_WikiData('')
+
     return HttpResponse(json.dumps(r), content_type="application/json")
+
 
 def queryDB(query):
     query = """
@@ -308,3 +404,11 @@ def queryDB(query):
         payload = {"query": query}
         result = accessor.sparql_select(body=payload, repo_name=repo)
         return json.loads(result)
+
+
+def query_WikiData(query):
+    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    return results
