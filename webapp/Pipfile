@@ -13,6 +13,7 @@ django-bootstrap4 = "*"
 django-bootstrap-datepicker-plus = "*"
 django = "==2.2.5"
 xmltodict = "==0.12.0"
+sparqlwrapper = "*"
 
 [requires]
 python_version = "3.7.4"
