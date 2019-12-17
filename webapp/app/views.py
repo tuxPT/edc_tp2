@@ -1,14 +1,17 @@
 import json
+import logging
+import time
 from datetime import datetime
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from lxml import etree
 from s4api.graphdb_api import GraphDBApi
 from s4api.swagger import ApiClient
 
 from .forms import RelatarForm
+
+logger = logging.getLogger(__name__)
 
 
 def index(request):
@@ -58,17 +61,18 @@ def listar_distrito(request):
     context = {'district': district}
     # get district code from wiki data:
     query = """
-    SELECT DISTINCT ?item
+    SELECT DISTINCT ?code 
     where
     {{
-    ?item wdt:P31 wd:Q41806065;
-    rdfs:label ?itemLabel.
-    FILTER NOT EXISTS {{?item p:P31 ?statement . ?statement pq:P582 ?endTime}}
-    FILTER(CONTAINS(LCASE(?itemLabel), "{0}"@pt)).
+    ?code wdt:P31 wd:Q41806065;
+    rdfs:label ?codeLabel.
+    FILTER NOT EXISTS {{?code p:P31 ?statement . ?statement pq:P582 ?endTime}}.
+    FILTER(CONTAINS(LCASE(?codeLabel), "{0}"@pt)). 
     }} limit 1
     """.format(district.lower())
-    results = query_WikiData(query)
-    district_code = results['results']['bindings'][0]['item']['value'].split('/')[-1]
+
+    results = query_wiki_data(query)
+    district_code = results['results']['bindings'][0]['code']['value'].split('/')[-1]
     print(district_code)
 
     # get data from that district
@@ -77,15 +81,12 @@ def listar_distrito(request):
     where
     {{
     wd:{0} wdt:P31 wd:Q41806065;
-
                wdt:P242 ?imgurl.
-
     SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en" .}}
     }}
     """.format(district_code)
-    #wdt:P421 ?timezone;
-    results = query_WikiData(query)
-    #context['timezone'] = results['results']['bindings'][0]['timezoneLabel']['value']
+
+    results = query_wiki_data(query)
     context['imgurl'] = results['results']['bindings'][0]['imgurlLabel']['value']
 
     # shares border with
@@ -96,15 +97,15 @@ def listar_distrito(request):
     wd:{0} wdt:P31 wd:Q41806065;
                wdt:P47 ?border.
     ?border wdt:P31 wd:Q41806065.
-    FILTER NOT EXISTS {{?border pq:P582 ?endTime}}
-    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en" .}}
+    FILTER NOT EXISTS {{?border pq:P582 ?endTime}}.
+    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "pt" .}}
     }}
     """.format(district_code)
-    results = query_WikiData(query)
+    results = query_wiki_data(query)
 
     borders = []
     for row in results['results']['bindings']:
-        borders.append(row['borderLabel']['value'].split()[0])
+        borders.append(' '.join(row['borderLabel']['value'].split()[2:]))
     context['borders'] = borders
 
     # get latest events
@@ -131,14 +132,12 @@ def listar_distrito(request):
         r[row['numero']['value']] = [row['data']['value'],
                                      row['natureza']['value'],
                                      row['estado']['value'],
-                                     row['distrito']['value'],
-                                     row['concelho']['value'],
-                                     row['freguesia']['value'],
+                                     row['distrito']['value'].capitalize(),
+                                     row['concelho']['value'].capitalize(),
+                                     row['freguesia']['value'].capitalize(),
                                      row['operacionais']['value']
                                      ]
     context['info'] = r
-    print(context)
-
     return render(request, 'incidentes_distrito.html', context)
 
 
@@ -197,9 +196,9 @@ def incidentes_recentes_lista():
         r[row['numero']['value']] = [row['data']['value'],
                                      row['natureza']['value'],
                                      row['estado']['value'],
-                                     row['distrito']['value'],
-                                     row['concelho']['value'],
-                                     row['freguesia']['value'],
+                                     row['distrito']['value'].capitalize(),
+                                     row['concelho']['value'].capitalize(),
+                                     row['freguesia']['value'].capitalize(),
                                      row['operacionais']['value']
                                      ]
     return r
@@ -328,8 +327,10 @@ def create_incident(data):
             bind(strdt("{}", xsd:integer) as ?noa)
             bind(IRI(concat(str("http://centraldedados.pt/anpc-2018.csv#"), str(?numero))) as ?numero2IRI)
         }}
-    """.format(natureza, estado, distrito, concelho, freguesia, num, data_ocorrencia, latitude, longitude, meios_terrestres, operacionais_terrestres, meios_aereos, operacionais_aereos)
+    """.format(natureza, estado, distrito, concelho, freguesia, num, data_ocorrencia, latitude, longitude,
+               meios_terrestres, operacionais_terrestres, meios_aereos, operacionais_aereos)
     return incidentes
+
 
 # recebe dados do formulário e coloca no ficheiro xml se os dados forem válidos
 def store_data(request):
@@ -346,6 +347,7 @@ def store_data(request):
         else:
             print('not valid')
             return HttpResponseRedirect('notconfirm')
+
 
 def listar_incidentes_map(request):
     lat = request.GET.get('lat')
@@ -382,7 +384,7 @@ def listar_incidentes_map(request):
                   'Latitude': float(row['Latitude']['value']),
                   'Longitude': float(row['Longitude']['value'])})
 
-    #query_WikiData('')
+    # query_WikiData('')
 
     return HttpResponse(json.dumps(r), content_type="application/json")
 
@@ -406,9 +408,14 @@ def queryDB(query):
         return json.loads(result)
 
 
-def query_WikiData(query):
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+def query_wiki_data(query):
+    sparql = SPARQLWrapper('https://query.wikidata.org/bigdata/namespace/wdq/sparql')
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-    return results
+    while True:
+        try:
+            results = sparql.query().convert()
+            return results
+        except Exception as e:
+            #logger.exception(e)
+            time.sleep(0.1)
