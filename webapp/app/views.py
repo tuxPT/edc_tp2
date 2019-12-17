@@ -206,34 +206,35 @@ def create_incident(data):
     meios_aereos = str(data['meiosAereos'])
     operacionais_aereos = str(data['opAereos'])
     incidentes = """
-        insert data {
-            ?NumeroParsed a xsd:anyURI;
-                anpc:Numero {}
-                anpc:DataOcorrencia {} ;
-                anpc:Natureza {} ;
-                anpc:EstadoOcorrencia {} ;
-                anpc:Distrito {} ;
-                anpc:Concelho {} ;
-                anpc:Freguesia {} ;
-                anpc:Latitude {} ;
-                anpc:Longitude {} ;
-                anpc:NumeroMeiosTerrestresEnvolvidos {} ;
-                anpc:NumeroOperacionaisTerrestresEnvolvidos {} ;
-                anpc:NumeroMeiosAereosEnvolvidos {} ;
-                anpc:NumeroOperacionaisAereosEnvolvidos {} .
-            bind(IRI(concat(str("http://centraldedados.pt/anpc-2018.csv#"), str({}))) as ?NumeroParsed)
-        }
-    """.format(num, data_ocorrencia, natureza, estado, distrito, concelho, freguesia, latitude, longitude, meios_terrestres, operacionais_terrestres, meios_aereos, operacionais_aereos)
+        insert {{
+            ?numero2IRI 	a xsd:anyURI;
+                            anpc:Numero ?numero;
+                            anpc:DataOcorrencia ?dataOcorrencia ;
+                            anpc:Natureza "{}" ;
+                            anpc:EstadoOcorrencia "{}" ;
+                            anpc:Distrito "{}" ;
+                            anpc:Concelho "{}" ;
+                            anpc:Freguesia "{}" ;
+                            anpc:Latitude ?lat ;
+                            anpc:Longitude ?lng ;
+                            anpc:NumeroMeiosTerrestresEnvolvidos ?nmt ;
+                            anpc:NumeroOperacionaisTerrestresEnvolvidos ?not ;
+                            anpc:NumeroMeiosAereosEnvolvidos ?nma ;
+                            anpc:NumeroOperacionaisAereosEnvolvidos ?noa .       
+        }}
+        where{{
+            bind(strdt("{}", xsd:integer) as ?numero)
+            bind(strdt("{}", xsd:dateTime) as ?dataOcorrencia)
+            bind(strdt("{}", xsd:decimal) as ?lat)
+            bind(strdt("{}", xsd:decimal) as ?lng)
+            bind(strdt("{}", xsd:integer) as ?nmt)
+            bind(strdt("{}", xsd:integer) as ?not)
+            bind(strdt("{}", xsd:integer) as ?nma)
+            bind(strdt("{}", xsd:integer) as ?noa)
+            bind(IRI(concat(str("http://centraldedados.pt/anpc-2018.csv#"), str(?numero))) as ?numero2IRI)
+        }}
+    """.format(natureza, estado, distrito, concelho, freguesia, num, data_ocorrencia, latitude, longitude, meios_terrestres, operacionais_terrestres, meios_aereos, operacionais_aereos)
     return incidentes
-
-"""
-# abre o ficheiro XML e adiciona o incidente no final
-def store_incident(doc, file_xml):
-    tree = etree.parse(file_xml)
-    root = tree.getroot()
-    root.append(doc)
-    tree.write(file_xml, xml_declaration=True, encoding='UTF-8')
-"""
 
 # recebe dados do formulário e coloca no ficheiro xml se os dados forem válidos
 def store_data(request):
@@ -246,42 +247,10 @@ def store_data(request):
                 print('{} : {}'.format(k, data[k]))
             query = create_incident(data)
             queryDB(query)
-            """
-            if validate(doc, 'app/xml/schema.xsd'):
-                print('ok')
-                store_incident(doc.find('incidente'), 'db.xml')
-                return HttpResponseRedirect('confirm')
-            else:
-                print('not ok')
-                return HttpResponseRedirect('notconfirm')
-                
-            """
+            return HttpResponseRedirect('confirm')
         else:
             print('not valid')
             return HttpResponseRedirect('notconfirm')
-
-
-#validate a xml file with xml schema
-def validate(doc: str, file_schema: str):
-    # parsing xsd
-    with open(file_schema, 'r') as schema_file:
-        xmlschema_doc = etree.parse(schema_file)
-        xmlschema = etree.XMLSchema(xmlschema_doc)
-
-        # validate against schema
-        try:
-            xmlschema.assertValid(doc)
-            print('XML valid, schema validation ok.')
-            return True
-
-        except etree.DocumentInvalid as err:
-            print('Schema validation error: '+str(err))
-            return False
-
-        except Exception as e:
-            print('Unknown error: ' + str(e))
-            return False
-
 
 def listar_incidentes_map(request):
     lat = request.GET.get('lat')
@@ -332,10 +301,10 @@ def queryDB(query):
     repo = "anpc"
     client = ApiClient(endpoint=endpoint)
     accessor = GraphDBApi(client)
-    if ("INSERT" or "UPDATE") in query:
+    if query.find('update') != -1 or query.find('insert') != -1:
         payload = {"update": query}
-        result = accessor.sparql_update(body=payload, repo_name=repo)
+        accessor.sparql_update(body=payload, repo_name=repo)
     else:
         payload = {"query": query}
         result = accessor.sparql_select(body=payload, repo_name=repo)
-    return json.loads(result)
+        return json.loads(result)
