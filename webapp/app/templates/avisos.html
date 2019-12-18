@@ -15,7 +15,7 @@
     <!-- Css -->
     {% load staticfiles %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-     <title property="name">Incidentes</title>
+     <title property="name">Incidentes -- Avisos</title>
   </head>
 
 <body vocab="http://Schema.org/" typeof="WebPage">
@@ -69,7 +69,7 @@
                                 <input type="submit" value="Mostrar" class="submit">
                             </select>
                             </form>
-                            <ul class="list-unstyled">
+                            <ul typeof="Table" class="list-unstyled">
                                 {%  for entry in news %}
                                     <li><a href="{{ entry.link }}">{{ entry.title }}</a></li>
                                 {% endfor %}
