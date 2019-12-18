@@ -1,59 +1,57 @@
 <!doctype html>
-<html lang="en">
-<head>
+<html lang="pt">
+
+<head vocab="http://Schema.org/" typeof="WPHeader">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-          crossorigin=""/>
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
 
     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-            integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-            crossorigin=""></script>
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
     {% load static %}
-    <title>Incidentes</title>
+    <title property="name">Incidentes</title>
 </head>
-<body>
-<header class="masthead">
 
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="fogos_url">Incidentes</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+<body vocab="http://Schema.org/" typeof="WebPage">
+    <header property="breadcrumb" class="masthead">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a property="relatedLink" class="navbar-brand" href="fogos_url">Incidentes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                 <li class="nav-item ">
-                    <a class="nav-link" href="listar_url">Lista </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="avisos_url">Avisos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="estatisticas_url">Estatisticas</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="relatar_url">Relatar</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="sobre_url">Sobre</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-</header>
-
-<div id="mapid" style="height: 720px;"></div>
-<script src="{% static "js/map.js" %}"></script>
-
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul typeof="Table" class="navbar-nav">
+                    <li class="nav-item ">
+                        <a property="relatedLink" class="nav-link" href="listar_url">Lista </a>
+                    </li>
+                    <li class="nav-item">
+                        <a property="relatedLink" class="nav-link" href="avisos_url">Avisos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a property="relatedLink" class="nav-link" href="estatisticas_url">Estatisticas</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a property="relatedLink" class="nav-link" href="relatar_url">Relatar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a property="relatedLink" class="nav-link" href="sobre_url">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div typeof="Map" id="mapid" style="height: 720px;"></div>
+    <script src="{% static "js/map.js" %}"></script>
 </body>
 </html>
