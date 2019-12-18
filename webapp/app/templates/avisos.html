@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Css -->
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
      <title>Incidentes</title>
   </head>
 <body>
@@ -42,5 +46,38 @@
 
   </header>
 
+    <!--Usar xpath para ir buscar as cenas ao ficheiro rss-xml
+     Sempre que alguem carrega no botão atualizar, carregar o ficheiro rss-xml -->
+ <div class="container">
+      <div class="card border-0 shadow my-5">
+        <div class="card-body p-5">
+             <h1 class="font-weight-light">Atualizações proteção civil:</h1>
+             <div class="div_class" style="width: 100%" >
+                <div class="row">
+                    <div class="div2_class" style="width: 100%">
+                        <!-- Category -->
+                        <div class="single category">
+                            <form action="/getRSS2" method="GET">
+                            <select name="RSS" class="custom-select">
+                                <option selected disabled>Escolha aqui</option>
+                                <option value="feed">Agenda</option>
+                                <option value="feed1">Notícias</option>
+                                <option value="feed2">Avisos à população</option>
+                                <option value="feed3">Comunicados de Imprensa</option>
+                                <input type="submit" value="Mostrar" class="submit">
+                            </select>
+                            </form>
+                            <ul class="list-unstyled">
+                                {%  for entry in news %}
+                                    <li><a href="{{ entry.link }}">{{ entry.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                       </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+      </div>
+ </div>
 </body>
 </html>
