@@ -49,7 +49,31 @@
     <div class="card border-0 shadow my-5">
     <div class="card-body p-5">
       {% block content %}
-        <h1 class="font-weight-light">Incidentes recentes</h1>
+        <div xmlns:anpc="http://centraldedados.pt/anpc-2018.csv">
+            <h1 class="font-weight-light">Incidentes do Ano</h1>
+            </br>
+            <ul>
+              <li>
+                  <a><b>Nº <span property="anpc:2018444052589">2018444052589</span></b></a>
+                  </br><b>Data: </b><span property="anpc:DataOcorrencia">2018-09-05T13:20:00</span>
+                  </br><b>Natureza: </b><span property="anpc:Natureza">Operações e Estados de Alerta</span>
+                  </br><b>Estado: </b><span property="anpc:EstadoOcorrencia">Encerrada</span>
+                  </br><b>Local:</b> <a href="listar_distrito_url?district=Coimbra"><span property="anpc:Distrito">Coimbra</span></a>, <span property="anpc:Concelho">Coimbra</span>, <span property="anpc:Localidade">Coimbra</span>
+                  </br><b>Operacionais:</b> <span property="anpc:NumeroMeiosTerrestresEnvolvidos">150</span>
+                </br></br>
+              </li>
+              <li>
+                  <a><b>Nº <span property="anpc:2018445052589">2018445052589</span></b></a>
+                  </br><b>Data: </b><span property="anpc:DataOcorrencia">2018-11-15T17:15:00</span>
+                  </br><b>Natureza: </b><span property="anpc:Natureza">Protecção e Assistência a Pessoas e Bens</span>
+                  </br><b>Estado: </b><span property="anpc:EstadoOcorrencia">Encerrada</span>
+                  </br><b>Local:</b> <a href="listar_distrito_url?district=Porto"><span property="anpc:Distrito">Porto</span></a>, <span property="anpc:Concelho">Porto</span>, <span property="anpc:Localidade">Foz do Douro</span>
+                  </br><b>Operacionais:</b> <span property="anpc:NumeroMeiosTerrestresEnvolvidos">55</span>
+                </br></br>
+              </li>
+            </ul>
+        </div>
+        <h1 class="font-weight-light">Incidentes Recentes</h1>
         </br>
         {% if info %}
         <ul>
