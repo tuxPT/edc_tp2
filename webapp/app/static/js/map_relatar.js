@@ -7,6 +7,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 	accessToken: 'pk.eyJ1IjoibWFyaW9scGFudHVuZXMiLCJhIjoiY2syYzhkcjdpMHpxbzNibWpjN3F2aDU3dyJ9.FklIUy73dB7yzL7NSYLvWA'
 }).addTo(map);
 
+L.control.scale().addTo(map);
+
 var marker = L.marker([40, -8], { title: "Location", alt: "", draggable: true })
 	.addTo(map).on('dragend', function () {
 		var coord = String(marker.getLatLng()).split(',');

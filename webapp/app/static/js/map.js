@@ -7,31 +7,43 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
     accessToken: 'pk.eyJ1IjoibWFyaW9scGFudHVuZXMiLCJhIjoiY2syYzhkcjdpMHpxbzNibWpjN3F2aDU3dyJ9.FklIUy73dB7yzL7NSYLvWA'
 }).addTo(map);
 
-var layerGroup = L.layerGroup().addTo(map);
+L.control.scale().addTo(map);
 
-map.on("moveend", function(){
-	let c = map.getCenter();
-	let url = 'listar_incidentes_map?lat=' + c.lat + '&lng=' + c.lng + '&radius=50';
-	fetch(url).then(res => res.json()).then((out) => {
-		layerGroup.clearLayers();
-		console.log(out.length);
-		console.log(out);
-		for(let i=0; i < out.length; i++){
-			console.log(out[i]);
-			var lat = out[i]["Latitude"];
-			var lng = out[i]["Longitude"];
-			var marker = L.marker([lat, lng]);
-			marker.bindPopup(out[i]['Natureza']);
-			layerGroup.addLayer(marker);
-		}
-	}).catch(err => { throw err });
+let layerGroup = L.layerGroup().addTo(map);
+
+map.on("moveend", function () {
+    let zoom = map.getZoom();
+    let c = map.getCenter();
+    console.log('Zoom level: ' + zoom);
+    let radius = 0;
+    if (zoom <= 7) {
+        radius = 560;
+    } else if (zoom >= 17) {
+        radius = 5;
+    } else {
+        radius = (-111 / 2) * zoom + (1897 / 2);
+    }
+    let url = 'listar_incidentes_map?lat=' + c.lat + '&lng=' + c.lng + '&radius=' + radius;
+    fetch(url).then(res => res.json()).then((out) => {
+        layerGroup.clearLayers();
+        console.log(out.length);
+        for (let i = 0; i < out.length; i++) {
+            let lat = out[i]["Latitude"];
+            let lng = out[i]["Longitude"];
+            let marker = L.marker([lat, lng]);
+            marker.bindPopup(out[i]['Natureza']);
+            layerGroup.addLayer(marker);
+        }
+    }).catch(err => {
+        throw err
+    });
 });
 
 if (navigator.geolocation) {
-	navigator.geolocation.getCurrentPosition(function (position) {
-		lat = position.coords.latitude;
-		lng = position.coords.longitude;
-		var newLatLng = new L.LatLng(lat, lng);
-		map.panTo(newLatLng);
-	});
+    navigator.geolocation.getCurrentPosition(function (position) {
+        lat = position.coords.latitude;
+        lng = position.coords.longitude;
+        var newLatLng = new L.LatLng(lat, lng);
+        map.panTo(newLatLng);
+    });
 }
