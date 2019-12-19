@@ -2,6 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import requests
 
 
 def main():
@@ -16,6 +17,20 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
+def startDB():
+    url2delete = "http://localhost:7200/rest/repositories/anpc"
+    requests.delete(url2delete)
+    filepath = os.path.join("app", "rdf", "anpc-config.ttl")
+    files = {'config': open(filepath, 'rb')}
+    urlrepos = 'http://localhost:7200/rest/repositories'
+    requests.post(urlrepos, files=files)
+    filepath = os.path.join("app", "rdf", "statements3.rdf")
+    header = {"Content-Type": "application/rdf+xml;charset=UTF-8"}
+    file = open(filepath, 'rb').read()
+    url2insert = 'http://localhost:7200/repositories/anpc/statements'
+    requests.post(url2insert, data=file, headers=header)
+
 
 if __name__ == '__main__':
+    startDB()
     main()

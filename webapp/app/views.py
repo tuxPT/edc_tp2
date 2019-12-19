@@ -247,89 +247,7 @@ def incidentes_recentes_lista():
                                      ]
     return r
 
-
-"""
-#mostrar detalhes dos incendios descritos na função incidentes_recentes_lista (para um especifico selecionado)
-#ToDo...
-def get_fogo(xml_file: str, value: str):
-    dic = {}
-    tree = ET.parse(xml_file)
-    root = tree.getroot()
-    for c in root.findall('fogo'):
-        if c.find("Freguesia").text == value:
-            dic = {
-                'DataOcorrencia': c.find('DataOcorrencia').text,
-                'Natureza': c.find('Natureza').text,
-                'Estado': c.find('Estado').text,
-                'Distrito': c.find('Distrito').text,
-                'Concelho': c.find('Concelho').text,
-                'Freguesia': c.find('Freguesia').text,
-                'Latitude': c.find('Latitude').text,
-                'Longitude': c.find('Longitude').text,
-                'MeiosTerrestres': c.find('MeiosTerrestres').text,
-                'OperacionaisTerrestres': c.find('OperacionaisTerrestres').text,
-                'MeiosAereos': c.find('MeiosAereos').text,
-                'OperacionaisAereos': c.find('OperacionaisAereos').text,
-            }
-            break
-    return dic
-"""
-
-"""
-#mostrar detalhes dos incendios descritos na função incidentes_recentes_lista (para um especifico selecionado)
-def mostrar_detalhes(request):
-
-    template = loader.get_template('detalhes.html')
-    value = request.GET.get('Freguesia')
-    context = get_fogo("db.xml", value)
-    return HttpResponse(template.render(context, request))
-"""
-
-
 def create_incident(data):
-    """
-    incidentes = etree.Element('incidentes')
-
-    num = datetime.now().strftime('%Y%m%d%H%M%S')
-
-    incidente = etree.SubElement(incidentes, 'incidente', {'Numero': str(num)})
-
-    data_ocorrencia = etree.SubElement(incidente, 'DataOcorrencia')
-    data_ocorrencia.text = data['data_ocorrencia'].strftime('%Y-%m-%dT%H:%M:%S')
-
-    natureza = etree.SubElement(incidente, 'Natureza')
-    natureza.text = data['natureza']
-
-    estado = etree.SubElement(incidente, 'Estado')
-    estado.text = data['estado']
-
-    distrito = etree.SubElement(incidente, 'Distrito')
-    distrito.text = data['distrito'].upper()
-
-    concelho = etree.SubElement(incidente, 'Concelho')
-    concelho.text = data['concelho']
-
-    freguesia = etree.SubElement(incidente, 'Freguesia')
-    freguesia.text = data['freguesia']
-
-    latitude = etree.SubElement(incidente, 'Latitude')
-    latitude.text = str(data['latitude'])
-
-    longitude = etree.SubElement(incidente, 'Longitude')
-    longitude.text = str(data['longitude'])
-
-    meios_terrestres = etree.SubElement(incidente, 'MeiosTerrestres')
-    meios_terrestres.text = str(data['meiosTerrestres'])
-
-    operacionais_terrestres = etree.SubElement(incidente, 'OperacionaisTerrestres')
-    operacionais_terrestres.text = str(data['opTerrestres'])
-
-    meios_aereos = etree.SubElement(incidente, 'MeiosAereos')
-    meios_aereos.text = str(data['meiosAereos'])
-
-    operacionais_aereos = etree.SubElement(incidente, 'OperacionaisAereos')
-    operacionais_aereos.text = str(data['opAereos'])
-    """
     num = datetime.now().strftime('%Y%m%d%H%M%S')
     data_ocorrencia = data['data_ocorrencia'].strftime('%Y-%m-%dT%H:%M:%S')
     natureza = data['natureza']
@@ -405,9 +323,9 @@ def listar_incidentes_map(request):
                 anpc:Longitude ?Longitude;
                 anpc:Natureza ?Natureza;
                 anpc:DataOcorrencia ?data.
-            bind(strdt("{0}", xsd:integer) as ?radiusParsed)
-            bind(strdt("{1}", xsd:decimal) as ?latParsed)
-            bind(strdt("{2}", xsd:decimal) as ?lngParsed)
+            bind(strdt(str({0}), xsd:integer) as ?radiusParsed)
+            bind(strdt(str({1}), xsd:double) as ?latParsed)
+            bind(strdt(str({2}), xsd:double) as ?lngParsed)
             filter(?distance <= ?radiusParsed && ((month(?data) = 12 && year(?data) = 2018) || year(?data) > 2018))
             bind(
                 ofn:sqrt(
