@@ -1329,6 +1329,1992 @@
 
 <http://centraldedados.pt/anpc-2018.csv#2018030102231> a xsd:anyURI .
 
+<http://centraldedados.pt/anpc-2018.csv#2018150000094> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150000094"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130000041> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130000041"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110001344> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110001344"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060000416> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060000416"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180000391> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180000391"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040000347> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040000347"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130002006> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130002006"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130003629> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130003629"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030001756> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030001756"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030001621> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030001621"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110004574> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110004574"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130005368> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130005368"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130005065> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130005065"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130005886> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130005886"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110007807> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110007807"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110008693> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110008693"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050001452> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050001452"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140002558> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140002558"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080001689> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080001689"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120000832> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120000832"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170001188> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170001188"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150004478> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150004478"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140002954> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140002954"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110010126> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110010126"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110011407> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110011407"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110012381> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110012381"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020001446> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020001446"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030005361> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030005361"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110013762> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110013762"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010005847> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010005847"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130011520> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130011520"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160002285> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160002285"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160002435> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160002435"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110014917> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110014917"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030006319> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030006319"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110016547> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110016547"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180004423> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180004423"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110017371> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110017371"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080003244> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080003244"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180004928> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180004928"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030007696> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030007696"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110018811> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110018811"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140005386> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140005386"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040002680> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040002680"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130016219> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130016219"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010008070> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010008070"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180005504> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180005504"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170002561> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170002561"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070002448> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070002448"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080004340> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080004340"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030008835> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030008835"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110023193> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110023193"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170002683> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170002683"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110023928> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110023928"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170002815> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170002815"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110024581> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110024581"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130020143> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130020143"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130019961> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130019961"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030009956> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030009956"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110026105> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110026105"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180007441> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180007441"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100008130> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100008130"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160004777> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160004777"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180007825> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180007825"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160004682> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160004682"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080005760> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080005760"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010012339> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010012339"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100008723> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100008723"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080006057> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080006057"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070003547> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070003547"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050006945> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050006945"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030012432> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030012432"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110030900> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110030900"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150014763> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150014763"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150015271> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150015271"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040004759> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040004759"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140009492> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140009492"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010014155> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010014155"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040004817> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040004817"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100010484> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100010484"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180009584> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180009584"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110035908> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110035908"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150016643> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150016643"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150016523> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150016523"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110036664> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110036664"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090005648> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090005648"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010015313> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010015313"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060008035> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060008035"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060008292> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060008292"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030015077> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030015077"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150017568> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150017568"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050009531> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050009531"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090006344> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090006344"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050009685> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050009685"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030016179> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030016179"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130031910> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130031910"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110040289> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110040289"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130031676> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130031676"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040005875> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040005875"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100012475> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100012475"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150019116> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150019116"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170005217> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170005217"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040006066> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040006066"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160007876> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160007876"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130034287> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130034287"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090007022> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090007022"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150020653> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150020653"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110044187> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110044187"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110043934> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110043934"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010018523> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010018523"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010018413> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010018413"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130036156> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130036156"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130036919> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130036919"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110046471> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110046471"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110046219> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110046219"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060010541> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060010541"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020006400> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020006400"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090008006> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090008006"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110049793> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110049793"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110050159> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110050159"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110049929> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110049929"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150023775> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150023775"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080010598> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080010598"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170006412> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170006412"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050012886> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050012886"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110051881> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110051881"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180014585> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180014585"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030020306> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030020306"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090008560> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090008560"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110053394> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110053394"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070006270> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070006270"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010022175> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010022175"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010022094> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010022094"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130043364> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130043364"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100016507> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100016507"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130043978> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130043978"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140016514> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140016514"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130044414> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130044414"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130044291> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130044291"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090009287> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090009287"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120005914> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120005914"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010023326> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010023326"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030022312> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030022312"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080012112> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080012112"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180016528> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180016528"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150027486> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150027486"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110059094> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110059094"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100017632> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100017632"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010024690> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010024690"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050015556> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050015556"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180017085> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180017085"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110061205> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110061205"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140018193> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140018193"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140018533> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140018533"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150028648> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150028648"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150028540> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150028540"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010025915> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010025915"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060014422> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060014422"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110063358> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110063358"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050016847> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050016847"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140019185> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140019185"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140019078> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140019078"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170008087> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170008087"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110064533> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110064533"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010027034> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010027034"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170008172> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170008172"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110065068> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110065068"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070007847> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070007847"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140019776> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140019776"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040009595> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040009595"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010027796> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010027796"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090011151> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090011151"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030026883> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030026883"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110067701> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110067701"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150031741> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150031741"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130054251> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130054251"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090011373> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090011373"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110069683> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110069683"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130055300> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130055300"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050019430> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050019430"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180020184> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180020184"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100021295> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100021295"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110072782> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110072782"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150033448> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150033448"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110073390> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110073390"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070008686> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070008686"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110074291> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110074291"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130058646> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130058646"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110074588> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110074588"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150034819> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150034819"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130058994> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130058994"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030030047> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030030047"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130060384> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130060384"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130061072> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130061072"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030030653> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030030653"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140023163> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140023163"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100023693> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100023693"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110078015> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110078015"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100023921> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100023921"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010032667> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010032667"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170010112> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170010112"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100024119> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100024119"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130063522> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130063522"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150037023> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150037023"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010033237> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010033237"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110081508> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110081508"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030032245> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030032245"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100024468> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100024468"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180023353> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180023353"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180023595> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180023595"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080017540> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080017540"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160015408> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160015408"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110083561> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110083561"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130066632> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130066632"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070010137> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070010137"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160015825> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160015825"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080017979> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080017979"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120008989> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120008989"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140025680> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140025680"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080018117> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080018117"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070010259> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070010259"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130068807> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130068807"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090014465> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090014465"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110087750> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110087750"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050025369> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050025369"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130069563> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130069563"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140026936> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140026936"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180025641> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180025641"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050026074> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050026074"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030036372> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030036372"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020011965> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020011965"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030036220> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030036220"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140027535> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140027535"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150042183> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150042183"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130072655> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130072655"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160017782> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160017782"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020012247> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020012247"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110094327> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110094327"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110094086> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110094086"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130074176> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130074176"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110095130> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110095130"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130074984> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130074984"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010039594> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010039594"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100028536> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100028536"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020012502> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020012502"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110096420> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110096420"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180027448> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180027448"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110097973> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110097973"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140030077> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140030077"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010040742> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010040742"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040014089> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040014089"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120010289> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120010289"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090016591> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090016591"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110100197> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110100197"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050028856> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050028856"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150045848> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150045848"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180028704> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180028704"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110101632> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110101632"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150046129> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150046129"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010042201> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010042201"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110103048> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110103048"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150047220> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150047220"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110103726> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110103726"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050029824> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050029824"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110104570> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110104570"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130082702> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130082702"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180030016> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180030016"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130083395> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130083395"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130083182> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130083182"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010044021> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010044021"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100031464> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100031464"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110105673> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110105673"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110105460> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110105460"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120011058> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120011058"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100031601> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100031601"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110107441> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110107441"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040015503> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040015503"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130085523> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130085523"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140033254> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140033254"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110108587> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110108587"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150049484> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150049484"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010045599> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010045599"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060024869> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060024869"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130087765> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130087765"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030044565> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030044565"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110110464> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110110464"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100033087> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100033087"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030044695> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030044695"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010046879> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010046879"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170014855> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170014855"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160024181> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160024181"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130090865> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130090865"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100033892> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100033892"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070013413> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070013413"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150052240> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150052240"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110115294> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110115294"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040016543> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040016543"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130091849> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130091849"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080024869> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080024869"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140035877> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140035877"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080025020> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080025020"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140036537> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140036537"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110119221> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110119221"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120012307> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120012307"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130094968> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130094968"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100035414> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100035414"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030048377> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030048377"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050034088> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050034088"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130095169> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130095169"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130096110> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130096110"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110121280> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110121280"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080025756> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080025756"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010050260> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010050260"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150055494> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150055494"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030049148> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030049148"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180034986> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180034986"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050034504> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050034504"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070014350> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070014350"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020016149> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020016149"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060028361> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060028361"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110125255> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110125255"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130098761> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130098761"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140038526> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140038526"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010051789> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010051789"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040017827> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040017827"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090021295> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090021295"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030050567> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030050567"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150057393> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150057393"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050035207> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050035207"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130102248> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130102248"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180036488> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180036488"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020016843> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020016843"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140039542> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140039542"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110129257> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110129257"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110130391> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110130391"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110131138> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110131138"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100038737> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100038737"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160028065> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160028065"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130104337> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130104337"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130104147> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130104147"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110131962> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110131962"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030053131> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030053131"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140040408> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140040408"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020017363> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020017363"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100039459> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100039459"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030053566> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030053566"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060030497> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060030497"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030054181> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030054181"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100040125> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100040125"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110135386> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110135386"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060030924> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060030924"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110136307> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110136307"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110136110> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110136110"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110137582> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110137582"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130109705> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130109705"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160029252> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160029252"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130111034> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130111034"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100041307> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100041307"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060032019> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060032019"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110140136> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110140136"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070016218> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070016218"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180039967> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180039967"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010058854> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010058854"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130114004> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130114004"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070016466> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070016466"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140043912> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140043912"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140043845> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140043845"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130114983> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130114983"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110145329> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110145329"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130115407> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130115407"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170019144> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170019144"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080031235> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080031235"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110145790> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110145790"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050037766> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050037766"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090024557> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090024557"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140044905> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140044905"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150066413> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150066413"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030058930> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030058930"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150066621> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150066621"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140045314> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140045314"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010062078> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010062078"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080032405> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080032405"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130119546> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130119546"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010062286> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010062286"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100044496> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100044496"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180042829> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180042829"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060034399> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060034399"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180042721> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180042721"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010062906> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010062906"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170020188> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170020188"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150068180> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150068180"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130120778> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130120778"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130122501> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130122501"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010063761> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010063761"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160031277> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160031277"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130123170> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130123170"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010064729> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010064729"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140047511> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140047511"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150069570> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150069570"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080034154> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080034154"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060035802> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060035802"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170021273> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170021273"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030062504> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030062504"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140048379> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140048379"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080034701> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080034701"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170021499> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170021499"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150071588> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150071588"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010066878> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010066878"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180045789> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180045789"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110159947> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110159947"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030063606> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030063606"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150072424> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150072424"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100048154> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100048154"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080035204> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080035204"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140049305> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140049305"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010067398> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010067398"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130129119> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130129119"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060037099> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060037099"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060037345> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060037345"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130130575> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130130575"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090027119> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090027119"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060037727> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060037727"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030065273> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030065273"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110163230> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110163230"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130130648> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130130648"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080036086> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080036086"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130132065> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130132065"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140051117> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140051117"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150074481> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150074481"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130132553> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130132553"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040024537> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040024537"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050040876> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050040876"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130134024> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130134024"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130133644> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130133644"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070019417> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070019417"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020021866> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020021866"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060038765> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060038765"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100050810> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100050810"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100050631> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100050631"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120018377> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120018377"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060039563> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060039563"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140052647> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140052647"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080038012> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080038012"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130137752> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130137752"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170024289> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170024289"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140053311> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140053311"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110171372> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110171372"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050041805> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050041805"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110171905> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110171905"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030069485> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030069485"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120018989> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120018989"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010072419> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010072419"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100052449> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100052449"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110174022> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110174022"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030069984> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030069984"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030069891> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030069891"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150078327> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150078327"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130141169> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130141169"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140054232> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140054232"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060040635> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060040635"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130142041> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130142041"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030070534> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030070534"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130141711> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130141711"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130141516> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130141516"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140054761> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140054761"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080039572> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080039572"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110176439> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110176439"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150080185> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150080185"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120019557> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120019557"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160035341> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160035341"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060041632> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060041632"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130143877> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130143877"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130144836> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130144836"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100054140> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100054140"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110179295> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110179295"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060042088> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060042088"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030072340> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030072340"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130146113> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130146113"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130147136> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130147136"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110181224> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110181224"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150081665> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150081665"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130147685> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130147685"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010077080> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010077080"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130148004> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130148004"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060042902> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060042902"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010077315> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010077315"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040028021> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040028021"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110184272> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110184272"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110184012> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110184012"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130149750> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130149750"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130149624> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130149624"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110185198> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110185198"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110186312> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110186312"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120020566> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120020566"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130151610> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130151610"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140058284> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140058284"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170027366> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170027366"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180054597> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180054597"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030075284> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030075284"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150085031> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150085031"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170027438> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170027438"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060044324> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060044324"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080042564> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080042564"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130153720> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130153720"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130154757> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130154757"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110190737> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110190737"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030076939> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030076939"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130155841> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130155841"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010080699> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010080699"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150087150> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150087150"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080043628> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080043628"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130157709> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130157709"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040029794> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040029794"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170028663> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170028663"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150087894> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150087894"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010081906> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010081906"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010082499> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010082499"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060045882> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060045882"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090032606> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090032606"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150088999> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150088999"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010083453> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010083453"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140061711> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140061711"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010083250> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010083250"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110199062> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110199062"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130161392> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130161392"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130161170> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130161170"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110199793> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110199793"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170029439> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170029439"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150090237> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150090237"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060046596> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060046596"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040030738> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040030738"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130163244> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130163244"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160038922> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160038922"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110201929> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110201929"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130163441> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130163441"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120022439> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120022439"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130165611> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130165611"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130165427> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130165427"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110205239> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110205239"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110205134> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110205134"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110204984> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110204984"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060047588> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060047588"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030082172> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030082172"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180060007> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180060007"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060048554> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060048554"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060048832> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060048832"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150092924> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150092924"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080045947> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080045947"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140064428> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140064428"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150093405> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150093405"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060050231> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060050231"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090034347> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090034347"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110208234> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110208234"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110209543> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110209543"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130169705> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130169705"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030084204> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030084204"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030084660> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030084660"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100063694> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100063694"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130171677> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130171677"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030085134> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030085134"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180062288> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180062288"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030085733> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030085733"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130174078> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130174078"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030086414> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030086414"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160041887> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160041887"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150097039> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150097039"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130175753> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130175753"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018170031722> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018170031722"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150097975> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150097975"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010091976> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010091976"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060052617> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060052617"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150098200> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150098200"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080048332> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080048332"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090036166> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090036166"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060052637> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060052637"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060053130> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060053130"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160043030> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160043030"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100067092> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100067092"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030089479> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030089479"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110224127> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110224127"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060053614> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060053614"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110224807> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110224807"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140069874> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140069874"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060054276> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060054276"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030090526> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030090526"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100068163> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100068163"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040034348> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040034348"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150101805> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150101805"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018070026166> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018070026166"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030091445> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030091445"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100069094> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100069094"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020029951> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020029951"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110231938> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110231938"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140071269> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140071269"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180066507> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180066507"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010096814> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010096814"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030092517> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030092517"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030092436> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030092436"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140071343> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140071343"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010097536> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010097536"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110234064> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110234064"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130189308> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130189308"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030093574> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030093574"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010098796> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010098796"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150105101> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150105101"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110235816> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110235816"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130190371> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130190371"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150105389> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150105389"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130190069> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130190069"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030094456> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030094456"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100071040> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100071040"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150106043> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150106043"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180068132> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180068132"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010099898> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010099898"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018020030976> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018020030976"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050053505> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050053505"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018060057209> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018060057209"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110240551> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110240551"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080052589> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080052589"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010100970> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010100970"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180069102> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180069102"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100072499> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100072499"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040036477> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040036477"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018040036626> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018040036626"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010102322> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010102322"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150109522> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150109522"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080053424> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080053424"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120026456> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120026456"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110247263> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110247263"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018080053634> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018080053634"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130199756> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130199756"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140075978> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140075978"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180070764> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180070764"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100073988> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100073988"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120026823> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120026823"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100074010> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100074010"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030098724> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030098724"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018050055371> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018050055371"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130201958> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130201958"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130202603> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130202603"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018160046878> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018160046878"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180071100> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180071100"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018180071033> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018180071033"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110251807> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110251807"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018100074536> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018100074536"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150111688> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150111688"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110252282> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110252282"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130204078> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130204078"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010104767> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010104767"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018140077878> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018140077878"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018120027332> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018120027332"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018130205541> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018130205541"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018010105149> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018010105149"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018090040983> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018090040983"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110254851> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110254851"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030101091> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030101091"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110256540> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110256540"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110257599> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110257599"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150113920> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150113920"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018110257975> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018110257975"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018150114136> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018150114136"^^xsd:long .
+
+<http://centraldedados.pt/anpc-2018.csv#2018030102231> <http://centraldedados.pt/anpc-2018.csv#Numero>
+    "2018030102231"^^xsd:long .
+
 <http://centraldedados.pt/anpc-2018.csv#2018150000094> <http://centraldedados.pt/anpc-2018.csv#DataOcorrencia>
     "2018-01-01T05:24:00"^^xsd:dateTime .
 
@@ -27146,1989 +29132,3 @@
 
 <http://centraldedados.pt/anpc-2018.csv#2018030102231> <http://centraldedados.pt/anpc-2018.csv#NumeroOperacionaisAereosEnvolvidos>
     "0"^^xsd:long .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150000094> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150000094" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130000041> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130000041" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110001344> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110001344" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060000416> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060000416" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180000391> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180000391" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040000347> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040000347" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130002006> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130002006" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130003629> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130003629" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030001756> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030001756" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030001621> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030001621" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110004574> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110004574" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130005368> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130005368" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130005065> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130005065" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130005886> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130005886" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110007807> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110007807" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110008693> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110008693" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050001452> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050001452" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140002558> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140002558" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080001689> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080001689" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120000832> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120000832" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170001188> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170001188" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150004478> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150004478" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140002954> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140002954" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110010126> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110010126" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110011407> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110011407" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110012381> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110012381" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020001446> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020001446" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030005361> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030005361" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110013762> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110013762" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010005847> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010005847" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130011520> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130011520" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160002285> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160002285" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160002435> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160002435" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110014917> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110014917" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030006319> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030006319" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110016547> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110016547" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180004423> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180004423" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110017371> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110017371" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080003244> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080003244" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180004928> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180004928" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030007696> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030007696" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110018811> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110018811" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140005386> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140005386" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040002680> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040002680" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130016219> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130016219" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010008070> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010008070" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180005504> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180005504" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170002561> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170002561" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070002448> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070002448" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080004340> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080004340" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030008835> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030008835" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110023193> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110023193" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170002683> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170002683" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110023928> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110023928" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170002815> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170002815" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110024581> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110024581" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130020143> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130020143" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130019961> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130019961" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030009956> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030009956" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110026105> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110026105" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180007441> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180007441" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100008130> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100008130" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160004777> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160004777" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180007825> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180007825" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160004682> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160004682" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080005760> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080005760" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010012339> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010012339" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100008723> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100008723" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080006057> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080006057" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070003547> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070003547" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050006945> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050006945" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030012432> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030012432" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110030900> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110030900" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150014763> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150014763" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150015271> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150015271" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040004759> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040004759" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140009492> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140009492" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010014155> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010014155" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040004817> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040004817" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100010484> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100010484" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180009584> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180009584" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110035908> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110035908" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150016643> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150016643" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150016523> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150016523" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110036664> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110036664" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090005648> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090005648" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010015313> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010015313" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060008035> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060008035" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060008292> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060008292" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030015077> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030015077" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150017568> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150017568" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050009531> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050009531" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090006344> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090006344" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050009685> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050009685" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030016179> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030016179" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130031910> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130031910" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110040289> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110040289" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130031676> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130031676" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040005875> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040005875" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100012475> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100012475" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150019116> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150019116" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170005217> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170005217" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040006066> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040006066" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160007876> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160007876" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130034287> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130034287" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090007022> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090007022" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150020653> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150020653" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110044187> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110044187" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110043934> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110043934" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010018523> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010018523" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010018413> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010018413" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130036156> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130036156" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130036919> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130036919" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110046471> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110046471" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110046219> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110046219" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060010541> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060010541" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020006400> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020006400" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090008006> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090008006" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110049793> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110049793" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110050159> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110050159" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110049929> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110049929" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150023775> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150023775" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080010598> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080010598" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170006412> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170006412" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050012886> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050012886" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110051881> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110051881" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180014585> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180014585" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030020306> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030020306" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090008560> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090008560" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110053394> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110053394" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070006270> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070006270" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010022175> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010022175" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010022094> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010022094" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130043364> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130043364" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100016507> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100016507" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130043978> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130043978" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140016514> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140016514" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130044414> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130044414" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130044291> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130044291" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090009287> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090009287" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120005914> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120005914" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010023326> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010023326" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030022312> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030022312" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080012112> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080012112" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180016528> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180016528" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150027486> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150027486" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110059094> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110059094" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100017632> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100017632" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010024690> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010024690" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050015556> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050015556" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180017085> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180017085" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110061205> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110061205" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140018193> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140018193" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140018533> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140018533" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150028648> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150028648" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150028540> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150028540" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010025915> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010025915" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060014422> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060014422" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110063358> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110063358" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050016847> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050016847" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140019185> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140019185" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140019078> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140019078" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170008087> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170008087" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110064533> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110064533" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010027034> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010027034" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170008172> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170008172" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110065068> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110065068" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070007847> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070007847" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140019776> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140019776" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040009595> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040009595" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010027796> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010027796" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090011151> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090011151" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030026883> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030026883" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110067701> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110067701" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150031741> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150031741" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130054251> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130054251" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090011373> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090011373" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110069683> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110069683" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130055300> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130055300" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050019430> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050019430" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180020184> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180020184" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100021295> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100021295" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110072782> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110072782" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150033448> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150033448" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110073390> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110073390" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070008686> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070008686" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110074291> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110074291" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130058646> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130058646" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110074588> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110074588" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150034819> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150034819" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130058994> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130058994" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030030047> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030030047" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130060384> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130060384" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130061072> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130061072" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030030653> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030030653" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140023163> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140023163" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100023693> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100023693" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110078015> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110078015" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100023921> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100023921" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010032667> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010032667" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170010112> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170010112" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100024119> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100024119" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130063522> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130063522" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150037023> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150037023" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010033237> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010033237" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110081508> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110081508" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030032245> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030032245" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100024468> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100024468" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180023353> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180023353" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180023595> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180023595" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080017540> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080017540" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160015408> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160015408" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110083561> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110083561" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130066632> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130066632" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070010137> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070010137" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160015825> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160015825" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080017979> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080017979" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120008989> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120008989" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140025680> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140025680" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080018117> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080018117" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070010259> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070010259" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130068807> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130068807" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090014465> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090014465" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110087750> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110087750" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050025369> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050025369" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130069563> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130069563" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140026936> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140026936" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180025641> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180025641" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050026074> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050026074" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030036372> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030036372" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020011965> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020011965" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030036220> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030036220" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140027535> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140027535" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150042183> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150042183" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130072655> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130072655" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160017782> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160017782" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020012247> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020012247" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110094327> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110094327" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110094086> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110094086" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130074176> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130074176" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110095130> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110095130" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130074984> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130074984" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010039594> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010039594" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100028536> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100028536" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020012502> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020012502" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110096420> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110096420" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180027448> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180027448" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110097973> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110097973" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140030077> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140030077" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010040742> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010040742" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040014089> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040014089" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120010289> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120010289" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090016591> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090016591" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110100197> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110100197" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050028856> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050028856" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150045848> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150045848" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180028704> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180028704" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110101632> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110101632" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150046129> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150046129" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010042201> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010042201" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110103048> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110103048" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150047220> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150047220" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110103726> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110103726" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050029824> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050029824" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110104570> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110104570" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130082702> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130082702" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180030016> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180030016" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130083395> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130083395" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130083182> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130083182" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010044021> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010044021" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100031464> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100031464" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110105673> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110105673" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110105460> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110105460" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120011058> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120011058" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100031601> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100031601" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110107441> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110107441" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040015503> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040015503" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130085523> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130085523" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140033254> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140033254" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110108587> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110108587" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150049484> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150049484" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010045599> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010045599" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060024869> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060024869" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130087765> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130087765" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030044565> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030044565" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110110464> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110110464" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100033087> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100033087" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030044695> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030044695" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010046879> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010046879" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170014855> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170014855" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160024181> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160024181" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130090865> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130090865" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100033892> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100033892" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070013413> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070013413" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150052240> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150052240" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110115294> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110115294" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040016543> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040016543" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130091849> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130091849" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080024869> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080024869" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140035877> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140035877" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080025020> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080025020" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140036537> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140036537" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110119221> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110119221" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120012307> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120012307" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130094968> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130094968" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100035414> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100035414" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030048377> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030048377" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050034088> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050034088" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130095169> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130095169" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130096110> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130096110" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110121280> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110121280" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080025756> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080025756" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010050260> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010050260" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150055494> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150055494" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030049148> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030049148" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180034986> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180034986" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050034504> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050034504" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070014350> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070014350" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020016149> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020016149" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060028361> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060028361" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110125255> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110125255" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130098761> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130098761" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140038526> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140038526" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010051789> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010051789" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040017827> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040017827" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090021295> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090021295" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030050567> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030050567" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150057393> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150057393" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050035207> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050035207" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130102248> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130102248" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180036488> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180036488" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020016843> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020016843" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140039542> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140039542" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110129257> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110129257" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110130391> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110130391" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110131138> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110131138" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100038737> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100038737" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160028065> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160028065" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130104337> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130104337" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130104147> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130104147" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110131962> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110131962" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030053131> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030053131" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140040408> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140040408" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020017363> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020017363" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100039459> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100039459" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030053566> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030053566" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060030497> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060030497" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030054181> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030054181" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100040125> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100040125" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110135386> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110135386" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060030924> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060030924" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110136307> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110136307" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110136110> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110136110" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110137582> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110137582" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130109705> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130109705" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160029252> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160029252" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130111034> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130111034" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100041307> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100041307" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060032019> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060032019" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110140136> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110140136" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070016218> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070016218" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180039967> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180039967" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010058854> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010058854" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130114004> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130114004" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070016466> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070016466" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140043912> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140043912" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140043845> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140043845" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130114983> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130114983" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110145329> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110145329" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130115407> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130115407" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170019144> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170019144" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080031235> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080031235" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110145790> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110145790" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050037766> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050037766" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090024557> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090024557" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140044905> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140044905" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150066413> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150066413" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030058930> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030058930" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150066621> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150066621" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140045314> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140045314" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010062078> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010062078" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080032405> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080032405" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130119546> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130119546" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010062286> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010062286" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100044496> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100044496" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180042829> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180042829" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060034399> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060034399" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180042721> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180042721" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010062906> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010062906" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170020188> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170020188" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150068180> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150068180" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130120778> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130120778" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130122501> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130122501" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010063761> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010063761" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160031277> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160031277" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130123170> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130123170" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010064729> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010064729" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140047511> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140047511" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150069570> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150069570" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080034154> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080034154" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060035802> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060035802" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170021273> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170021273" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030062504> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030062504" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140048379> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140048379" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080034701> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080034701" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170021499> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170021499" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150071588> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150071588" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010066878> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010066878" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180045789> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180045789" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110159947> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110159947" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030063606> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030063606" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150072424> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150072424" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100048154> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100048154" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080035204> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080035204" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140049305> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140049305" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010067398> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010067398" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130129119> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130129119" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060037099> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060037099" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060037345> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060037345" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130130575> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130130575" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090027119> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090027119" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060037727> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060037727" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030065273> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030065273" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110163230> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110163230" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130130648> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130130648" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080036086> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080036086" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130132065> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130132065" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140051117> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140051117" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150074481> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150074481" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130132553> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130132553" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040024537> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040024537" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050040876> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050040876" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130134024> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130134024" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130133644> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130133644" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070019417> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070019417" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020021866> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020021866" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060038765> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060038765" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100050810> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100050810" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100050631> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100050631" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120018377> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120018377" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060039563> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060039563" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140052647> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140052647" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080038012> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080038012" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130137752> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130137752" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170024289> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170024289" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140053311> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140053311" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110171372> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110171372" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050041805> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050041805" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110171905> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110171905" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030069485> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030069485" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120018989> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120018989" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010072419> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010072419" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100052449> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100052449" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110174022> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110174022" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030069984> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030069984" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030069891> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030069891" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150078327> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150078327" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130141169> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130141169" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140054232> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140054232" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060040635> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060040635" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130142041> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130142041" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030070534> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030070534" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130141711> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130141711" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130141516> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130141516" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140054761> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140054761" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080039572> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080039572" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110176439> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110176439" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150080185> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150080185" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120019557> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120019557" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160035341> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160035341" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060041632> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060041632" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130143877> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130143877" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130144836> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130144836" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100054140> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100054140" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110179295> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110179295" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060042088> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060042088" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030072340> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030072340" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130146113> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130146113" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130147136> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130147136" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110181224> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110181224" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150081665> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150081665" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130147685> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130147685" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010077080> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010077080" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130148004> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130148004" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060042902> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060042902" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010077315> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010077315" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040028021> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040028021" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110184272> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110184272" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110184012> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110184012" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130149750> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130149750" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130149624> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130149624" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110185198> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110185198" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110186312> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110186312" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120020566> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120020566" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130151610> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130151610" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140058284> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140058284" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170027366> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170027366" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180054597> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180054597" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030075284> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030075284" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150085031> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150085031" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170027438> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170027438" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060044324> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060044324" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080042564> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080042564" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130153720> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130153720" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130154757> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130154757" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110190737> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110190737" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030076939> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030076939" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130155841> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130155841" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010080699> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010080699" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150087150> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150087150" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080043628> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080043628" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130157709> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130157709" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040029794> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040029794" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170028663> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170028663" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150087894> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150087894" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010081906> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010081906" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010082499> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010082499" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060045882> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060045882" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090032606> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090032606" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150088999> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150088999" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010083453> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010083453" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140061711> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140061711" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010083250> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010083250" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110199062> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110199062" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130161392> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130161392" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130161170> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130161170" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110199793> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110199793" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170029439> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170029439" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150090237> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150090237" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060046596> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060046596" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040030738> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040030738" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130163244> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130163244" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160038922> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160038922" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110201929> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110201929" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130163441> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130163441" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120022439> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120022439" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130165611> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130165611" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130165427> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130165427" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110205239> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110205239" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110205134> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110205134" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110204984> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110204984" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060047588> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060047588" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030082172> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030082172" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180060007> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180060007" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060048554> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060048554" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060048832> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060048832" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150092924> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150092924" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080045947> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080045947" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140064428> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140064428" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150093405> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150093405" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060050231> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060050231" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090034347> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090034347" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110208234> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110208234" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110209543> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110209543" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130169705> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130169705" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030084204> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030084204" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030084660> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030084660" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100063694> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100063694" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130171677> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130171677" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030085134> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030085134" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180062288> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180062288" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030085733> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030085733" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130174078> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130174078" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030086414> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030086414" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160041887> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160041887" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150097039> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150097039" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130175753> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130175753" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018170031722> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018170031722" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150097975> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150097975" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010091976> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010091976" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060052617> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060052617" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150098200> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150098200" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080048332> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080048332" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090036166> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090036166" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060052637> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060052637" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060053130> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060053130" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160043030> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160043030" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100067092> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100067092" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030089479> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030089479" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110224127> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110224127" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060053614> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060053614" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110224807> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110224807" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140069874> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140069874" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060054276> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060054276" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030090526> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030090526" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100068163> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100068163" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040034348> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040034348" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150101805> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150101805" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018070026166> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018070026166" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030091445> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030091445" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100069094> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100069094" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020029951> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020029951" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110231938> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110231938" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140071269> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140071269" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180066507> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180066507" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010096814> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010096814" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030092517> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030092517" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030092436> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030092436" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140071343> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140071343" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010097536> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010097536" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110234064> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110234064" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130189308> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130189308" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030093574> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030093574" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010098796> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010098796" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150105101> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150105101" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110235816> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110235816" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130190371> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130190371" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150105389> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150105389" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130190069> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130190069" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030094456> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030094456" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100071040> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100071040" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150106043> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150106043" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180068132> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180068132" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010099898> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010099898" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018020030976> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018020030976" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050053505> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050053505" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018060057209> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018060057209" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110240551> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110240551" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080052589> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080052589" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010100970> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010100970" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180069102> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180069102" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100072499> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100072499" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040036477> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040036477" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018040036626> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018040036626" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010102322> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010102322" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150109522> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150109522" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080053424> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080053424" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120026456> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120026456" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110247263> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110247263" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018080053634> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018080053634" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130199756> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130199756" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140075978> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140075978" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180070764> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180070764" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100073988> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100073988" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120026823> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120026823" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100074010> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100074010" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030098724> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030098724" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018050055371> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018050055371" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130201958> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130201958" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130202603> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130202603" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018160046878> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018160046878" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180071100> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180071100" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018180071033> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018180071033" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110251807> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110251807" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018100074536> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018100074536" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150111688> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150111688" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110252282> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110252282" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130204078> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130204078" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010104767> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010104767" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018140077878> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018140077878" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018120027332> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018120027332" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018130205541> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018130205541" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018010105149> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018010105149" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018090040983> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018090040983" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110254851> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110254851" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030101091> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030101091" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110256540> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110256540" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110257599> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110257599" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150113920> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150113920" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018110257975> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018110257975" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018150114136> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018150114136" .
-
-<http://centraldedados.pt/anpc-2018.csv#2018030102231> <http://centraldedados.pt/anpc-2018.csv#Numero>
-    "2018030102231" .

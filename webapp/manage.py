@@ -24,8 +24,8 @@ def startDB():
     files = {'config': open(filepath, 'rb')}
     urlrepos = 'http://localhost:7200/rest/repositories'
     requests.post(urlrepos, files=files)
-    filepath = os.path.join("app", "rdf", "statements3.rdf")
-    header = {"Content-Type": "application/rdf+xml;charset=UTF-8"}
+    filepath = os.path.join("app", "rdf", "statements2.n3")
+    header = {"Content-Type": "text/rdf+n3;charset=UTF-8"}
     file = open(filepath, 'rb').read()
     url2insert = 'http://localhost:7200/repositories/anpc/statements'
     requests.post(url2insert, data=file, headers=header)
